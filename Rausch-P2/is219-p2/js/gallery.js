@@ -53,8 +53,23 @@ function swapPhoto() {
 
 	mLastFrameTime = 0;
 	mCurrentIndex += 1;
+}
 
 
+	function toggleDetails()
+	{
+		if($(".moreIndicator").hasClass("rot90"))
+		{
+			$( ".moreIndicator" ).removeClass("rot90");
+			$( ".moreIndicator").addClass("rot270");
+		}
+		else {
+			$( ".moreIndicator" ).removeClass("rot270");
+			$( ".moreIndicator").addClass("rot90");
+		}
+		$( ".details").slideToggle( "slow", "linear");
+	}
+	
 	function iterateJSON(mJson)
 	{
 		for (x = 0; x < mJson.images.length; x++ )
@@ -66,7 +81,9 @@ function swapPhoto() {
 			mImages[x].img = mJson.images[x].imgPath;
 		}
 	}
-
+{
+	
+}
 	
 	console.log('swap photo');
 }
@@ -99,7 +116,6 @@ function fetchJSON()
 	mRequest.open("GET", mUrl, true);
 	mRequest.send();
 }
-
 //You can optionally use the following function as your event callback for loading the source of Images from your json data (for HTMLImageObject).
 //@param A GalleryImage object. Use this method for an event handler for loading a gallery Image object (optional).
 function makeGalleryImageOnloadCallback(galleryImage) {
@@ -109,10 +125,33 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 	}
 }
 
-$(document).ready( function() {
+
 	
+$(document).ready( function() {
+
+
+		$( "#nextPhoto" ).position({
+	my: "right bottom",
+	at: "right bottom",
+	of: "#nav"
+	});
+	
+	const urlParams = new URLSearchParams(window.location.search);
+	
+	for (const [key, value] of urlParams) {
+		console.log('{key}:${value}');
+		mURL = value;
+	}
+	if(mUrl == undefined)
+	{
+		mUrl = 'images.json';
+	}
+	
+
+
+	fetchJSON();
 	// This initially hides the photos' metadata information
-	$('.details').eq(0).hide();
+	//$('.details').eq(0).hide();
 	
 });
 

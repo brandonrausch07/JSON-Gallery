@@ -25,7 +25,18 @@
         <p class="description">Description: </p>
         <p class="date">Date: </p>
       </div>
-
+<script>
+  $( "#prevPhoto" ).click(function() {
+    mCurrentIndex-=2;
+    swapPhoto();
+  });
+  </script>
+  <script>
+    $( "#nextPhoto" ).click(function() {
+      swapPhoto();
+    });
+  </script>
+</script>
     </div>
   </div>
 </body>
