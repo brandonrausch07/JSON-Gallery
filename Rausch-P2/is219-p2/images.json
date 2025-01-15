@@ -1,82 +1,46 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/spongebob/4454120.jpg",
+            "imgLocation": "Spongebob-Squarepants",
+            "description": "Juvenile, overly optimistic, and good-natured personality",
+            "date": "Tom Kenny"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/spongebob/Patrick.jpg",
+            "imgLocation": "Patrick Star",
+            "description": "Analytical, individualistic, truth-seeking, and flexible",
+            "date": "Bill Fagerbakke"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/spongebob/Squidward-color-Step-8.webp",
+            "imgLocation": "Squidward",
+            "description": "Grumpy, cynical, and pessimistic personality",
+            "date": "Rodger Bumpass"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/spongebob/165-1658360_mr-krabs-from-spongebob-transparent-cartoons-mr-krabs.png",
+            "imgLocation": "Mr. Krabs",
+            "description": "Greedy, Self-absorbed",
+            "date": "Clancy Brown"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/spongebob/R.png",
+            "imgLocation": "Sandy Cheeks",
+            "description": "Intelligent, Scientific, Athletic",
+            "date": "Carolyn Lawrence"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/spongebob/Plankton.jpg",
+            "imgLocation": "Plankton",
+            "description": "Clever, Outgoing, Evil",
+            "date": "Doug Lawrence"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
-        },
-        {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
-        },
-        {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
-        },
-        {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/spongebob/Mrs. Puff.jpg",
+            "imgLocation": "Mrs. Puff",
+            "description": "Puffy",
+            "date": "Mary Jo Catlett"
         }
   ]
 }

@@ -1,7 +1,9 @@
 body {
 	overflow: auto;
 	font-family: 'Century Gothic', sans-serif;
-	background-image: url(../img/geometry.jpg);
+	background-image: url(../img/spongebob/spongebob_sky_background__by_artfromterryrhodes_dfsv6ta-pre.jpg);
+	background-repeat: no-repeat;
+	background-size: 2000px;
 }
 
 #photoBooth {
@@ -10,7 +12,7 @@ body {
 	width: 650px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white;
+	background-color: lightblue;
 	border-radius: 2px;
 }	
 
@@ -36,8 +38,9 @@ body {
 }
 
 .thumbnail {
+	width: 100%;
 	position: relative;
-	box-shadow: 1px 3px 20px 0px;
+	box-shadow: 1px 4px 20px 0px;
 }
 
 
